@@ -73,7 +73,6 @@ button{
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 0;
     text-align: center;
 }
 
@@ -87,7 +86,19 @@ button{
 .info-pics{
     height: 300px;
     width: 300px;
+    border: 5px solid blue;
+    border-radius: 12px;
 }
 
 .footer{
+}
+
+.pic-with-info-layout{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 400px;
+}
+
+.pic-text{
+    text-align: center;
 }
