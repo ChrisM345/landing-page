@@ -102,3 +102,11 @@ button{
 .pic-text{
     text-align: center;
 }
+
+.quote{
+    padding: 25px 400px;
+}
+
+.quote-user{
+    text-align: right;
+}
