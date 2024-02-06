@@ -5,7 +5,7 @@ body{
     font-family: roboto, sans-serif;
 }
 
-.top{
+.top, .footer{
     background-color: #1F2937;
 }
 .header{
@@ -15,7 +15,7 @@ body{
     margin-bottom: 50px;
 }
 
-.secondary-text{
+.secondary-text, .footer{
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
@@ -69,3 +69,25 @@ button{
     margin-left: auto;
 }
 
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 0;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.info-pics{
+    height: 300px;
+    width: 300px;
+}
+
+.footer{
+}
