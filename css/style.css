@@ -13,6 +13,7 @@ body{
     align-items: center;
     padding: 12px 400px;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 
 .secondary-text, .footer{
@@ -28,7 +29,7 @@ body{
 }
 
 .header-links{
-    margin-left: auto;
+    display: flex;
 }
 
 a {
@@ -109,4 +110,30 @@ button{
 
 .quote-user{
     text-align: right;
+}
+
+.ad{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 400px;
+    background-color: #3882F6;
+    margin: 125px 100px;
+}
+
+.ad-left-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-right-part{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+h3, .sign-up{
+    color: white;
+    padding: 0;
+    margin: 0;
 }
