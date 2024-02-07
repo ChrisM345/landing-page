@@ -92,6 +92,7 @@ button{
 }
 
 .footer{
+    padding: 25px 0;
 }
 
 .pic-with-info-layout{
@@ -136,4 +137,8 @@ h3, .sign-up{
     color: white;
     padding: 0;
     margin: 0;
+}
+
+.footer p{
+    text-align: center;
 }
